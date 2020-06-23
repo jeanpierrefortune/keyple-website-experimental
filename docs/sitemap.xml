@@ -3,39 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>/keyple-website/</loc>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>/keyple-website/authors/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/keyple-website/categories/</loc>
   </url>
   
   <url>
-    <loc>/author/nelson-bighetti/</loc>
+    <loc>/keyple-website/author/nelson-bighetti/</loc>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>/keyple-website/post/</loc>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>/keyple-website/publication_types/</loc>
   </url>
   
   <url>
-    <loc>/publication/</loc>
+    <loc>/keyple-website/publication/</loc>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>/keyple-website/talk/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/keyple-website/tags/</loc>
   </url>
   
 </urlset>
