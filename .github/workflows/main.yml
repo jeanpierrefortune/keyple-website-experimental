@@ -32,8 +32,14 @@ jobs:
         run: gem install asciidoctor-html5s
         working-directory: ./
         
-      - name: Tune Asciidoctor 
-        run: which asciidoctor
+      - name: Tune Asciidoctor #1
+        run: chmod +x ./scripts/setup.sh
+
+      - name: Tune Asciidoctor #2
+        run: chmod +x ./scripts/asciidoctor
+
+      - name: Tune Asciidoctor #3
+        run: ./scripts/setup.sh
          
       - name: Build
         run: hugo --minify
