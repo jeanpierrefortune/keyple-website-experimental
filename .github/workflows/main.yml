@@ -31,6 +31,10 @@ jobs:
       - name: Setup Asciidoctor
         run: gem install asciidoctor-html5s
         working-directory: ./
+      
+      - name: Setup rouge
+        run: gem install rouge
+        working-directory: ./
         
       - name: Tune Asciidoctor #1
         run: chmod +x ./scripts/setup.sh
