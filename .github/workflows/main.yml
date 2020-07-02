@@ -25,7 +25,7 @@ jobs:
         working-directory: ./
         
       - name: Setup Asciidoctor
-        run: npm install asciidoctor
+        run: gem install asciidoctor-html5s
         working-directory: ./
         
       - name: Tune Asciidoctor 
