@@ -19,13 +19,28 @@ jobs:
         with:
           hugo-version: '0.71.1'
           extended: true
-
+      
+      - name: Setup Academic
+        run: npm install gcushen/hugo-academic
+        working-directory: ./
+        
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.7'        
+        
+      - name: Setup Asciidoctor
+        run: gem install asciidoctor-html5s
+        working-directory: ./
+        
+      - name: Tune Asciidoctor 
+        run: which asciidoctor
+         
       - name: Build
         run: hugo --minify
-        working-directory: ./src/
+        working-directory: ./
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: ./public
