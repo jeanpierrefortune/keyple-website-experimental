@@ -24,6 +24,13 @@ jobs:
         run: npm install gcushen/hugo-academic
         working-directory: ./
         
+      - name: Setup Asciidoctor
+        run: npm install asciidoctor
+        working-directory: ./
+        
+      - name: Tune Asciidoctor 
+        run: which asciidoctor
+         
       - name: Build
         run: hugo --minify
         working-directory: ./
