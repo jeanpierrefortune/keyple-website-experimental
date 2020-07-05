@@ -6,8 +6,8 @@
 <!------ Include the above in your HEAD tag ---------->
 <section class="project-tab" id="tabs">
     <div class="container">
-        <div class="row">
-            <div class="mw-100">
+        <div class="flex-row">
+            <div>
                 <nav>
                     <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
                         <a aria-controls="nav-java" aria-selected="true" class="nav-item nav-link active" data-toggle="tab" href="#nav-java" id="nav-java-tab" role="tab">
@@ -20,7 +20,7 @@
                             C++
                         </a>
                         <a class="nav-item copycode" role="tab"></a>
-                </div>
+                    </div>
                 </nav>
                 <div class="tab-content" id="nav-tabContent">
                     <div aria-labelledby="nav-java-tab" class="tab-pane fade show active" id="nav-java" role="tabpanel">
@@ -29,7 +29,7 @@
                     </div>
                     <div aria-labelledby="nav-kotlin-tab" class="tab-pane fade" id="nav-kotlin" role="tabpanel">
                       <div>
-                      {{ highlight (.Get "kotlin") "kotlin" "" }}</div>
+                      {{ highlight (.Get "kotlin") "kt" "" }}</div>
                     </div>
                     <div aria-labelledby="nav-cpp-tab" class="tab-pane fade" id="nav-cpp" role="tabpanel">
                       <div>
