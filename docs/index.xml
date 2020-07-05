@@ -25,7 +25,7 @@ DiagramBlock &amp;lt;|-- PlantUmlBlock&lt;/pre>&lt;/div>&lt;/section>
 &lt;section class="project-tab" id="tabs">
 &lt;div class="container">
 &lt;div class="flex-row">
-&lt;div class="mw-100">
+&lt;div>
 &lt;nav>
 &lt;div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
 &lt;a aria-controls="nav-java" aria-selected="true" class="nav-item nav-link active" data-toggle="tab" href="#nav-java" id="nav-java-tab" role="tab">
@@ -50,7 +50,7 @@ MatchingSe matchingSe &lt;span style="color:#f92672">=&lt;/span> selectionsResul
 &lt;/div>
 &lt;div aria-labelledby="nav-kotlin-tab" class="tab-pane fade" id="nav-kotlin" role="tabpanel">
 &lt;div>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span style="color:#66d9ef">val&lt;/span> selectionsResult = seSelection.processExplicitSelection(reader)
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-kt" data-lang="kt">&lt;span style="color:#66d9ef">val&lt;/span> selectionsResult = seSelection.processExplicitSelection(reader)
 &lt;span style="color:#66d9ef">if&lt;/span> (selectionsResult.hasActiveSelection()) {
 &lt;span style="color:#66d9ef">val&lt;/span> matchingSe = selectionsResult.activeMatchingSe
 }&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
