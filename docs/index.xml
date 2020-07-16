@@ -701,7 +701,47 @@ A ‘PO resource’ is the set of a Calypso PO and the reader on which it is sel
 &lt;blockquote>
 &lt;p>cf.
 &lt;a href="https://github.com/eclipse/keyple-java/blob/develop/java/example/calypso/pc/UseCase5_MultipleSession/src/main/java/org/eclipse/keyple/example/calypso/pc/usecase5/MultipleSession_Pcsc.java" target="_blank" rel="noopener">“Calypso Use Case 5 / PO Multiple Session&amp;rdquo;&lt;/a> example&lt;/p>
-&lt;/blockquote></description></item><item><title/><link>/keyple-website/docs/keyple-plugin-android-nfc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/keyple-website/docs/keyple-plugin-android-nfc/</guid><description>&lt;p>
+&lt;/blockquote></description></item><item><title>Log parser</title><link>/keyple-website/docs/log-parser/</link><pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate><guid>/keyple-website/docs/log-parser/</guid><description>&lt;div class="container">
+&lt;form name="form1">
+&lt;div class="form-group">
+&lt;label for="content">
+Copy/Paste your raw log data here (DEBUG level) and press the parse button:
+&lt;/label>
+&lt;textarea class="form-control" id="keyple-log-data" name="log" rows="5" style="margin-bottom: 10px;">&lt;/textarea>
+&lt;button class="btn btn-primary btn-md" id="parse">Parse&lt;/button>
+&lt;label>
+&lt;input name="raw" type="checkbox" value="">
+Show raw data
+&lt;/input>
+&lt;/label>
+&lt;label>
+&lt;input name="genstub" type="checkbox" value="">
+Generate stub commands code
+&lt;/input>
+&lt;/label>
+&lt;/div>
+&lt;/form>
+&lt;p>
+The transaction trace:
+&lt;/p>
+&lt;table id="parser-commands">
+&lt;thead>
+&lt;tr>
+&lt;th>
+Step
+&lt;/th>
+&lt;th>
+Target
+&lt;/th>
+&lt;th>
+Command/Action
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;/tbody>
+&lt;/table>
+&lt;/div></description></item><item><title/><link>/keyple-website/docs/keyple-plugin-android-nfc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/keyple-website/docs/keyple-plugin-android-nfc/</guid><description>&lt;p>
 &lt;a href="./index.md">keyple-plugin-android-nfc&lt;/a>&lt;/p>
 &lt;h3 id="packages">Packages&lt;/h3>
 &lt;p>|
